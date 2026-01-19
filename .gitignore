@@ -1,11 +1,10 @@
-# Python bytecode (compiled files)
+# Python
 __pycache__/
 *.py[cod]
 
-# Virtual environments
-venv/
-env/
+# Virtual environment
+.venv/
 
-# OS files
+# OS junk
 .DS_Store
 Thumbs.db

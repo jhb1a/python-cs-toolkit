@@ -13,7 +13,7 @@ Complexity:
 from typing import List
 
 
-def twoSum(nums: List[int], target: int) -> List[int]:
+def two_sum(nums: List[int], target: int) -> List[int]:  # type: ignore
     seen = {}  # empty hash map
 
     for i, num in enumerate(nums):

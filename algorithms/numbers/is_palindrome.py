@@ -11,7 +11,7 @@ Complexity:
 """
 
 
-def isPalindrome(x: int) -> bool:
+def is_palindrome(x: int) -> bool:
     # Negative numbers aren't palindromes
     if x < 0:
         return False
