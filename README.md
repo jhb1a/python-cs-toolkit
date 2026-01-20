@@ -14,5 +14,3 @@ The project is organized by topic to support easy navigation:
 ## Conventions
 Implementations include concise docstrings and standard Big-O complexity annotations. Folder organization follows common divisions used in computer science coursework.
 
-## License
-MIT License.
