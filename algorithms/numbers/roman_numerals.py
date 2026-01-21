@@ -47,6 +47,10 @@ class RomanNumerals:
             TypeError: If num is not an integer
             ValueError: If num is outside the valid range (1-3999)
 
+        Complexity:
+            Time: O(1) - Fixed number of iterations (at most 13)
+            Space: O(1) - Result string length bounded by constant (at most 15)
+
         Examples:
             >>> RomanNumerals.int_to_roman(49)
             'XLIX'
@@ -79,6 +83,10 @@ class RomanNumerals:
 
         Raises:
             TypeError: If roman is not a string
+
+        Complexity:
+            Time: O(n) - Where n is the length of the input string
+            Space: O(1) - Only uses constant extra space
 
         Examples:
             >>> RomanNumerals.roman_to_int('MCMXCIV')
