@@ -1,4 +1,4 @@
-from typing import List, Optional
+from typing import Optional
 
 
 class ListNode:
@@ -20,7 +20,7 @@ class ListNode:
         self.next = next
 
 
-def build_list(values: List[int]) -> Optional[ListNode]:
+def build_list(values: list[int]) -> Optional[ListNode]:
     """
     Build a linked list from a Python list of integers.
 
@@ -40,7 +40,7 @@ def build_list(values: List[int]) -> Optional[ListNode]:
     return head
 
 
-def to_list(head: Optional[ListNode]) -> List[int]:
+def to_list(head: Optional[ListNode]) -> list[int]:
     """
     Convert a linked list back into a Python list.
 
@@ -73,7 +73,7 @@ def print_list(head: Optional[ListNode]) -> None:
     print(" -> ".join(vals) if vals else "Empty list")
 
 
-def LL(values: List[int]) -> Optional[ListNode]:
+def LL(values: list[int]) -> Optional[ListNode]:
     """
     Short-hand builder for quick testing.
 

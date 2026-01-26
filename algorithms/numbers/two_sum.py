@@ -13,10 +13,8 @@ Returns:
     Indices of the two numbers whose values sum to the target
 """
 
-from typing import List
 
-
-def two_sum(nums: List[int], target: int) -> List[int]:  # type: ignore
+def two_sum(nums: list[int], target: int) -> list[int]:  # type: ignore
     seen = {}  # empty hash map
 
     for i, num in enumerate(nums):

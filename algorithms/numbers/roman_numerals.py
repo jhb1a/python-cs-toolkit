@@ -39,7 +39,6 @@ class RomanNumerals:
         Args:
             num: Integer between 1 and 3999 (inclusive)
 
-
         Returns:
             Roman numeral representation as a string
 
